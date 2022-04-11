@@ -1,0 +1,27 @@
+Frontend React:
+
+1)Clone the git repo
+2)Delete Node modules if any
+3)Delete Package.lock.json file
+4)Open terminal in the cloned repo location
+5)Execute npm install
+6)Once done,type npm start
+
+
+Backend Appserver Flask:
+
+1)Clone the git repo
+2)Create tpv,pv folder inside the local repo
+2)In the .env file,give in the location of repo,tpv and pv folder
+3)Setup postgres in the machine,pass in "dcsdb" as the name of the database.Pass in postgres details to the .env file.
+4)Create virtual environment called venv
+5)activate venv
+6)Pip install requirements.txt
+7)python3 run.py
+
+Backend Machine Learning Algorithms:
+
+1)Create virtual env called venv
+2)pip install requirements.txt
+3)pass in the folder locations of tpv,pv to the .env file
+4)go to src folder and type python3 init.py

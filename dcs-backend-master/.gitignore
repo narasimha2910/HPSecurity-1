@@ -1,0 +1,16 @@
+.idea
+processed
+toProcess
+venv
+**/__pycache__
+*.mp3
+*.jpg
+*.jpeg
+*.mp4
+*.avi
+*.pkl
+*.weights
+*.png
+*.pyc
+*.csv
+pds.py

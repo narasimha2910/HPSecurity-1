@@ -1,0 +1,19 @@
+/Sessions
+/images
+/old_src
+.idea
+processed
+toProcess
+venv
+**/__pycache__
+*.mp3
+*.jpg
+*.jpeg
+*.mp4
+*.avi
+*.pkl
+/example vids
+*.png
+*.tmpl
+*.cfg
+*.names

@@ -1,0 +1,9 @@
+{
+    "car driving":["car","person"],
+    "eating pizza":["pizza","person"],
+    "birthday celebration":["cake","person"],
+    "coding":["keyboard","person"],
+    "cleaning":["toilet","person"],
+    "cooking":["knife","person"],
+    "news reporting":["person"]
+}

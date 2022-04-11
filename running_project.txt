@@ -1,0 +1,32 @@
+//changing to virtual env
+source venv/bin/activate
+
+//starting front end
+Projects/HPE/datacenter-security-master$ npm start
+
+//starting backend with a video inside tpv
+(venv) chandradhar@chandradhar-ASUS-Gaming-FX570UD:~/Projects/HPE/dcs-backend-master/src$ python init.py 
+
+//command to copy video from one folder to another
+cp 1%15.213.155.94@20200202_201109.mp4 /home/chandradhar/Projects/HPE/dcs-appserver-master/tpv/1%15.213.155.94@20200202_201109.mp4
+
+//password for postgres user
+chandra69chandra
+
+//accessing psql shell
+sudo -i -u postgres
+psql
+
+//connecting to the db
+psql -h localhost -p 5432 -U postgres dcsdb;
+
+//using psql terminal
+chandradhar@chandradhar-ASUS-Gaming-FX570UD:~/Projects/HPE/dcs-backend-master$ sudo -i -u postgres
+postgres@chandradhar-ASUS-Gaming-FX570UD:~$ psql
+
+
+//running app server
+(venv) chandradhar@chandradhar-ASUS-Gaming-FX570UD:~/Projects/HPE/dcs-appserver-master$ python run.py
+
+//env variables stored in
+.env file stores all env variables
